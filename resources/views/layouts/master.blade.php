@@ -20,8 +20,16 @@ Want to make this site better?  https://tesjil.com/jobs
   <meta name="author" content="Surajudeen Akande">
   <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+  <!--Bootstrap-->
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+  @yield('custom-css')
 </head>
 <body>
-
+    @include('partials.header')
+    @yield('content')
+    @include('partials.footer')
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    @yield('scripts')
 </body>
 </html>
