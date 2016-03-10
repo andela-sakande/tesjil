@@ -16,3 +16,15 @@ body {
 .title {
     font-size: 96px;
 }
+
+.wide {
+  width:100%;
+  height:100%;
+  height:calc(100% - 1px);
+  background-image:url('https://c.stocksy.com/a/RcN300/z0/805779.jpg');
+  background-size:cover;
+}
+
+.wide img {
+  width:100%;
+}
