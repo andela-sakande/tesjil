@@ -2,7 +2,7 @@
 @section('title', 'Tesjil | A verified peopled directory!')
 
 @section('custom-css')
-<link rel="stylesheet" type="text/css" href="css/welcome.css">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/welcome.css') }}">
 </head>
 @endsection
 @section('content')
@@ -16,12 +16,16 @@
       Find great, trusted and verified hands for your services.
     </div>
     <div class="intro-search">
+      <div class="form-group">
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="What are you looking for?" aria-describedby="basic-addon2">
-        <span class="input-group-addon" id="basic-addon2">Search</span>
+        <span class="input-group-addon">@</span>
+        <input type="text" class="form-control" placeholder="What are you looking for?">
+        <span class="input-group-btn">
+          <button class="btn btn-success" type="button">Search</button>
+        </span>
       </div>
     </div>
-
+    </div>
   </div>
 </div>
 </header>

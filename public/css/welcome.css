@@ -72,9 +72,58 @@ header .intro-text .intro-search {
     background:  #00a379;
 }
 
+.modal-dialog {
+    top: 70px;
+}
+
 .modal-content {
     background-color: #ffffff;
     color: #000;
+    width: 360px;
+}
+
+.form-control {
+    border: 1px solid #cccccc;
+}
+
+.wide {
+    width: 100%;
+}
+
+.lost-font {
+    font-weight: 400;
+    hover: none;
+}
+
+
+.wide:hover {
+    background-color: #00a379;
+    border: #00a379;
+}
+
+.radio label, .checkbox label {
+    color: #aaaaaa
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.modal-footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #464545;
+    font-weight: 500;
+}
+
+.asterisk {
+    color: #00a379;
+}
+
+hover .btn-default {
+    color: #ffffff;
+    background-color: #aaaaaa;
+    border-color: #464545;
 }
 
 @media (max-width: 608px) {
