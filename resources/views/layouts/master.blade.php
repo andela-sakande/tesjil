@@ -13,7 +13,7 @@ Want to make this site better?  https://tesjil.com/jobs
 <head>
   <title>@yield('title')</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="_token" content="{{ csrf_token() }}" />
   <meta name="description" content="Directory And Listing System">
   <meta name="keywords" content="Laravel, PHP, Nigeria, People, Find">

@@ -8,9 +8,19 @@
 <header>
 <div class="container">
   <div class="intro-text">
-  <div class="intro-lead-in">
+    <div class="intro-lead-in">
+      Discover The City Gems
+    </div>
+    <div class="intro-description">
+      Find great, trusted and verified hands for your services.
+    </div>
+    <div class="intro-search">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="What are you looking for?" aria-describedby="basic-addon2">
+        <span class="input-group-addon" id="basic-addon2">Search</span>
+      </div>
+    </div>
 
-  </div>
   </div>
 </div>
 </header>
