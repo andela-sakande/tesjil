@@ -72,11 +72,17 @@ header .intro-text .intro-search {
     background:  #00a379;
 }
 
+.modal-content {
+    background-color: #ffffff;
+    color: #000;
+}
+
 @media (max-width: 608px) {
     html,
     body {
         height: 100%;
     }
+
     body {
         margin: 0;
         padding: 0;
@@ -85,6 +91,7 @@ header .intro-text .intro-search {
         font-weight: 100;
         font-family: 'Lato';
     }
+
     header {
         position: absolute;
         background-image: url("images/DeathtoStock_Wired3.jpg");
@@ -94,30 +101,37 @@ header .intro-text .intro-search {
         background-repeat: no-repeat;
         box-sizing: border-box;
     }
+
     header .container {
         margin-top: 0;
         text-align: center;
     }
+
     .navbar-inverse {
         background-color: transparent;
     }
+
     nav {
         font-weight: 300
     }
+
     header .intro-text {
         padding-top: 150px;
         padding-bottom: 200px;
     }
+
     header .intro-text .intro-lead-in {
         font-size: 30px;
         font-weight: 300;
         line-height: 30px;
     }
+
     header .intro-text .intro-description {
         font-weight: 300;
         font-size: 13px;
         padding-bottom: 30px;
     }
+
     header .intro-text .intro-search {
         width: 200px;
         margin: auto;

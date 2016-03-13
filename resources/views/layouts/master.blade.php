@@ -22,12 +22,13 @@ Want to make this site better?  https://tesjil.com/jobs
   <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/darkly/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
   <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
   @yield('custom-css')
 </head>
 <body>
     @include('partials.header')
+    @include('partials.modals')
     @yield('content')
     @include('partials.footer')
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>

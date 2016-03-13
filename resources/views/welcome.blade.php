@@ -3,6 +3,7 @@
 
 @section('custom-css')
 <link rel="stylesheet" type="text/css" href="css/welcome.css">
+</head>
 @endsection
 @section('content')
 <header>
@@ -27,4 +28,7 @@
   <div class="title">Tesjil</div>
   <p>A verified peopled directory!</p>
 
+@endsection
+@section('scripts')
+<script type="text/javascript" src="js/app.js"></script>
 @endsection

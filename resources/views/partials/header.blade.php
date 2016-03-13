@@ -43,7 +43,7 @@
           </ul>
         </li>
         <li><a href="#">Blog</a></li>
-        <li><a href="#">Log In</a></li>
+        <li><a href="" id="login">Log In</a></li>
       </ul>
     </div>
   </div>
