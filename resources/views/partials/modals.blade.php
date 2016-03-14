@@ -34,7 +34,7 @@
               <label>
                 <input type="checkbox"> Remember me
               </label>
-              <a href="" class="pull-right lost-font">Lost your password?</a>
+              <a href="" class="pull-right lost-font" id="lost-password">Lost your password?</a>
             </div>
             <button type="submit" class="btn btn-default wide">Log In</button>
           </form>
@@ -94,3 +94,28 @@
     </div>
   </div>
 <!--End of Sign up Modal-->
+
+<!-- lost password Modal -->
+  <div class="modal fade" id="forgetModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Forgot Password </label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <button type="submit" class="btn btn-default wide">Get New Password</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+            <p><a href="" id="">Cancel</a> </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<!--End of lost password Modal-->
+

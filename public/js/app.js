@@ -7,4 +7,8 @@ $(document).ready(function(){
         e.preventDefault();
         $("#signupModal").modal({backdrop: true});
     });
+    $("#lost-password").click(function(e){
+        e.preventDefault();
+        $("#forgetModal").modal({backdrop: true});
+    });
 });
