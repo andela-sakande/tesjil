@@ -1,8 +1,10 @@
-<!-- Login Modal -->
+<!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-sm">
 
       <!-- Modal content-->
+      <!--Login div-->
+    <div class="div-login">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -40,21 +42,15 @@
           </form>
         </div>
         <div class="modal-footer">
-            <p>Don't have account yet? <a href="" id="signup">Sign Up</a> </p>
+            <p>Don't have account yet? <a href="#" id="signup">Sign Up</a> </p>
         </div>
 
       </div>
 
     </div>
-  </div>
-<!--End of Login Modal-->
-
-
-<!-- Sign Up Modal -->
-  <div class="modal fade" id="signupModal" role="dialog">
-    <div class="modal-dialog modal-sm">
-
-      <!-- Modal content-->
+    <!--end of login div-->
+    <!--signup div-->
+    <div class="div-signup">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -86,20 +82,15 @@
           </form>
         </div>
         <div class="modal-footer">
-            <p>Already have an account? <a href="" id="login">Log in</a> </p>
+            <p>Already have an account? <a href="#" id="login-back">Log in</a> </p>
         </div>
 
       </div>
-
     </div>
-  </div>
-<!--End of Sign up Modal-->
 
-<!-- lost password Modal -->
-  <div class="modal fade" id="forgetModal" role="dialog">
-    <div class="modal-dialog modal-sm">
-
-      <!-- Modal content-->
+    <!--end of signup div-->
+    <!--forget div-->
+    <div class="div-forget">
       <div class="modal-content">
         <div class="modal-body">
           <form>
@@ -111,11 +102,14 @@
           </form>
         </div>
         <div class="modal-footer">
-            <p><a href="" id="">Cancel</a> </p>
+            <p><a href="#" id="back-login">Cancel</a> </p>
         </div>
       </div>
+    </div>
 
+    <!--end of forget div-->
     </div>
   </div>
-<!--End of lost password Modal-->
+<!--End of Modal-->
+
 
