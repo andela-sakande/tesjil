@@ -38,7 +38,7 @@
               </label>
               <a href="" class="pull-right lost-font" id="lost-password">Lost your password?</a>
             </div>
-            <button type="submit" class="btn btn-default wide">Log In</button>
+            <button type="submit" class="btn btn-default wide">Log In   <i class="fa fa-caret-right"></i></button>
           </form>
         </div>
         <div class="modal-footer">
@@ -78,7 +78,7 @@
               <label for="exampleInputPassword1">Password <span class="asterisk">*</span></label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-default wide">Register</button>
+            <button type="submit" class="btn btn-default wide">Register   <i class="fa fa-caret-right"></i></button>
           </form>
         </div>
         <div class="modal-footer">
@@ -98,7 +98,7 @@
               <label for="exampleInputEmail1">Forgot Password </label>
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
             </div>
-            <button type="submit" class="btn btn-default wide">Get New Password</button>
+            <button type="submit" class="btn btn-default wide">Get New Password   <i class="fa fa-caret-right"></i></button>
           </form>
         </div>
         <div class="modal-footer">
