@@ -3,4 +3,8 @@ $(document).ready(function(){
         e.preventDefault();
         $("#myModal").modal({backdrop: true});
     });
+    $("#signup").click(function(e){
+        e.preventDefault();
+        $("#signupModal").modal({backdrop: true});
+    });
 });
