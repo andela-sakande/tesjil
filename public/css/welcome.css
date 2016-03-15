@@ -133,7 +133,7 @@ hover .btn-default {
 .footer-social {
     width: 100%;
     height:70px;
-    padding: 10px 450px;
+    padding: 10px 470px;
     background-color: #00513c;
 }
 
@@ -187,7 +187,6 @@ hover .btn-default {
 
 footer {
     text-align: center;
-    align: center;
 }
 
 @media (max-width: 608px) {
