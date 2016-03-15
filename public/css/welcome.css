@@ -145,6 +145,7 @@ hover .btn-default {
 }
 
 .social li {
+    list-style-type: none;
     background: none repeat scroll 0 0 #00a379;
     border: 2px solid #00a379;
     -webkit-border-radius: 50%;
