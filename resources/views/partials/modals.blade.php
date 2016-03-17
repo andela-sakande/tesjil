@@ -71,13 +71,14 @@
         <div class="modal-body">
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Username or Email address <span class="asterisk">*</span></label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              <label for="exampleInputEmail1">Username <span class="asterisk">*</span></label>
+              <input type="text" class="form-control" id="exampleInputName1" placeholder="Username">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password <span class="asterisk">*</span></label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <label for="exampleInputPassword1">Email <span class="asterisk">*</span></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
             </div>
+            <p class="font-bold">A password will be e-mailed to you.</p>
             <button type="submit" class="btn btn-default wide">Register   <i class="fa fa-caret-right"></i></button>
           </form>
         </div>
