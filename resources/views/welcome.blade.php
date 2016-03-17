@@ -29,8 +29,9 @@
   </div>
 </div>
 </header>
-  <div class="title">Tesjil</div>
-  <p>A verified peopled directory!</p>
+  <section class="services">
+
+  </section>
 
 @endsection
 @section('scripts')
