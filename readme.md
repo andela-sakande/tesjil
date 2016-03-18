@@ -5,9 +5,43 @@
 [![StyleCI](https://styleci.io/repos/52866482/shield)](https://styleci.io/repos/52866482)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/andela-sakande/tesjil/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/andela-sakande/tesjil/?branch=master)
 
-## Official Documentation
+## Usage
 
-Documentation for the tesjil can be found on the [Laravel website](http://laravel.com/docs).
+To download and use this project you need to have the following installed on your machine
+
+- Composer
+  Visit the [official website](https://getcomposer.org/doc/00-intro.md) for installation instructions.
+- Laravel homestead
+  Visit [Laravel website](http://laravel.com/docs/5.1/homestead) for installation and setup instructions.
+
+When you have completed the above processes, run:
+
+```bash
+$ git clone https://github.com/andela-sakande/schoo
+`````
+to clone the repository to your working directory. This step presumes that you have git set up and running.
+
+Run
+
+```bash
+$ composer install
+```
+to pull in the project dependencies.
+
+Make a .env file modelled after the .env.example and set your parameters
+
+generate APP_KEY using
+
+```bash
+    php artisan key:generate
+```
+
+Also run on homestead environment
+```bash
+    php artisan migrate
+```
+to configure your database.
+Now you are set up and ready to run.
 
 ## Contributing
 
