@@ -151,10 +151,10 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Tesjil\Providers\AppServiceProvider::class,
+        Tesjil\Providers\AuthServiceProvider::class,
+        Tesjil\Providers\EventServiceProvider::class,
+        Tesjil\Providers\RouteServiceProvider::class,
 
     ],
 

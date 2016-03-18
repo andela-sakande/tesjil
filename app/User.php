@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Tesjil;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;

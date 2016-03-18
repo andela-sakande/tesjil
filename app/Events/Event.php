@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Tesjil\Events;
 
 abstract class Event
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exceptions;
+namespace Tesjil\Exceptions;
 
 use Exception;
 use Illuminate\Auth\Access\AuthorizationException;
