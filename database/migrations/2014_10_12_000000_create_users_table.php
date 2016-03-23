@@ -20,16 +20,24 @@ class CreateUsersTable extends Migration
             $table->string('fullname')->nullable();
             $table->string('email')->unique();
             $table->string('password', 60);
-            $table->string('avatar');
+            $table->string('avatar')->nullable();
             $table->string('provider')->nullable();
             $table->bigInteger('uid')->nullable();
             $table->string('town')->nullable();
             $table->string('state')->nullable();
             $table->integer('phone')->nullable();
             $table->string('address')->nullable();
+            $table->string('bio')->nullable();
+            $table->integer('role_id')->unsigned()->default(1);
+            $table->string('website')->nullable();
+            $table->string('job_description')->nullable();
+            $table->string('favorite')->nullable();
+            $table->integer('friends_count')->nullable();
             $table->rememberToken();
             $table->timestamps();
             $table->softDeletes();
+
+            $table->foreign('role_id')->references('id')->on('roles')->onDelete('cascade');
         });
     }
 
