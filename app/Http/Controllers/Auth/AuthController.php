@@ -2,11 +2,11 @@
 
 namespace Tesjil\Http\Controllers\Auth;
 
-use Tesjil\Http\Controllers\Controller;
-use Tesjil\User;
-use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
-use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Validator;
+use Tesjil\User;
+use Tesjil\Http\Controllers\Controller;
+use Illuminate\Foundation\Auth\ThrottlesLogins;
+use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
 {

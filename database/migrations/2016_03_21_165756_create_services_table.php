@@ -12,7 +12,7 @@ class CreateServicesTable extends Migration
      */
     public function up()
     {
-        Schema::create('services', function(Blueprint $table){
+        Schema::create('services', function (Blueprint $table) {
             $table->increments('id')->unsigned();
             $table->string('service_name')->unique();
             $table->string('service_tagline')->nullable();
@@ -26,6 +26,7 @@ class CreateServicesTable extends Migration
             $table->integer('service_phone');
             $table->string('website');
             $table->softDeletes();
+            $table->timestamps();
         });
     }
 
